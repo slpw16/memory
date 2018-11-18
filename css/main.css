@@ -1,0 +1,60 @@
+body {
+  box-sizing: border-box;
+}
+
+
+.content-game {
+  margin-top: 15vh;
+  margin-left: 30vw;
+  justify-content: center;
+}
+
+table {
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: separate;
+    border-spacing: 10px;
+  }
+  table tbody td {
+    width: 150px;
+    height: 150px;
+    font-size: 80px;
+    color: white;
+    transition-duration: 1000ms;
+    transition-property: all;
+  
+  }
+  table tbody td.hide:hover {
+    border: 1px solid white;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    transform:rotate(90deg);
+  }
+
+  .hide {
+   background: black;
+   color: white; 
+  }
+
+  .checked {
+    visibility: hidden;
+  }
+
+  .result { 
+    margin-top: 40px;
+    border: 0;
+    background: 0;
+    width: 450px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .result.info {
+    text-align: center;
+    padding: 30px;
+    border: 2px solid white;
+    background: rgb(15, 138, 15);
+  }
