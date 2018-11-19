@@ -50,7 +50,7 @@
                 click_column = parseInt($(this).attr("data-column"));
                 clicked = clicked + 1;
                 element_number = click_column + click_row;
-                $(this).removeClass("hide").html('<img src="images/' + table[element_number] + '">').addClass("check");
+                $(this).removeClass("hide").html('<img src="https://slpw16.github.io/memory_game/images/' + table[element_number] + '">').addClass("check");
                 if(clicked === 1) {
                     prev_click_row = click_row;
                     prev_click_column = click_column;
